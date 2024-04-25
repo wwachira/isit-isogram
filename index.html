@@ -15,36 +15,44 @@
     <div class="card">
         <div id="title" class="title">
             function isIsogram(str) { <br>
-            let letters = {};<br>
-            for (let char of str) {<br>
-            if (/[a-z]/.test(char)) {<br>
+                str = str.toLowerCase();<br>
+                let letters = "/(a-z/)"; <br>
+                for (let char of str) {<br>
+                    if (/(a-z)/.test[char]) {<br>
+                        if (/(a-z)/.test[char]) {<br>
+                            if (letters[char]) {<br>
+                                return false;<br>
+                            }<br>
+                            letters[char] = true;<br>
+                        }<br>
+                        
+                    }<br>
+                }<br>
             }<br>
-            letters[char] = true;<br>
-            }<br>
-            return true;<br>
-            }<br>
+            
+            
+                    function sayHello(name) {<br>
+                        const phrase = `Hello, ${name}!`;<br>
+                        return (phrase);<br>
+                    }<br>
+            
+                    let name = 'Liz';<br>
+                    const phrase = `Hello, ${name}!`;<br>
+                    console.log(phrase);<br>
+            
+                    function checkIsogram(input) {<br>
+                        if (isIsogram(input)) {<br>
+                            console.log(`${input} is an isogram.`);<br>
+                        } else {<br>
+                            console.log(`${input} is not an isogram.`);<br>
+                        }<br>
+                    }<br>
+                
+                    checkIsogram(phrase); //my phrase is not an isogram.<br>
+                     
+                
 
-
-
-            function sayHello(name) {<br>
-            const phrase = `Hello, ${name}!`;<br>
-            return (phrase);<br>
-            }<br>
-
-            let name = 'Liz';<br>
-            const phrase = `Hello, ${name}!`;<br>
-            console.log(phrase);<br>
-
-            function checkIsogram(input) {<br>
-            if (isIsogram(input)) {<br>
-            console.log(`${input} is an isogram.`);<br>
-            } else {<br>
-            console.log(`${input} is not an isogram.`);<br>
-            }<br>
-            }<br>
-            checkIsogram(phrase); //my phrase is an isogram<br>
-
-        </div><br>
+        </div>
 
 
 
